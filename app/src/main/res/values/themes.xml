@@ -1,0 +1,6 @@
+<!-- /app/src/main/res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CardGame" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 必要なら色など定義 -->
+    </style>
+</resources>
