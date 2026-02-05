@@ -36,8 +36,6 @@ Up & Down／ババ抜き／大富豪が遊べる Android アプリです。
 - **Compose BOM の重複宣言**：`val composeBom = platform(...)` は **dependencies 内で1回のみ**にしてください。  
 - **Icons 未解決**：`implementation("androidx.compose.material:material-icons-extended")` を追加し、`import androidx.compose.material.icons.*` を入れる。  
 - **Experimental animation**：`compose-animation` を依存に加え、`@OptIn(ExperimentalAnimationApi::class)` を付与。  
-- **JOKER追加後の when**：`when(s: Suit)` に **`Suit.JOKER`** を忘れず追加。  
-- **Up & Down のデッキ**：JOKER なし（`Suit.values()` で回さず **4スートを明示**）。  
 （これらは開発中に実際に発生し、解決済みの内容です） 
 
 ## ディレクトリ（主要）
