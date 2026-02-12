@@ -135,7 +135,7 @@ fun GameSelectionScreen(
                 ElevatedCard(onClick = onGoVideoPoker, modifier = Modifier.fillMaxWidth()) {
                     ListItem(
                         headlineContent = { Text("ポーカー（Video Poker: Jacks or Better）", fontWeight = FontWeight.Bold) },
-                        supportingContent = { Text("5枚配布→HOLD→1回ドロー／役判定と配当") }
+                        supportingContent = { Text("5枚配布→HOLD→1回ドロー／対戦なし") }
                     )
                 }
             }
