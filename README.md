@@ -19,8 +19,9 @@
 
 アプリ起動時には、Hero画像（`index_picture.jpg`）と アプリタイトル「無心トランプ」が表示されます。
 > ./app/src/main/res/drawable/index_picture.jpg
-> 
-> ## 3. 画面構成と遷移
+
+
+## 3. 画面構成と遷移
 
 ゲーム選択（Menu）  
 ├─ Up & Down  
