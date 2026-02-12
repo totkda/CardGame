@@ -171,9 +171,8 @@
 - **拡張性**：  
   各ゲームは独立 ViewModel、役判定は関数化
 - **セキュリティ**：  
-  ローカル実行のため通信なし  
-  将来は CSPRNG / コミット＆リビール方式も導入可能
-
+  ローカル実行のため通信なし
+  
   
 ## 6. 既知のリスク/制約と対処
 
@@ -184,9 +183,6 @@
 - アニメ依存：  
   `compose-animation` が必要  
   → **AnimatedContent は @OptIn(ExperimentalAnimationApi::class) 必須**
-- JOKER追加後：  
-  `when(s: Suit)` に **Suit.JOKER の分岐必須**  
-  → 実際に何度か発生したが現在修正済み
 
 
 ## 7. テスト方針
